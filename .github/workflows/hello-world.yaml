@@ -9,7 +9,8 @@ on:
       - 'main'
       - 'release/**'
       - '!dev/**'
-    workflow_dispatch:
+  workflow_dispatch:
+  
 jobs:
   say-hello:
     runs-on: ubuntu-latest
